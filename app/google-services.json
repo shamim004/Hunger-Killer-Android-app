@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811850007687",
+    "firebase_url": "https://hungerkiller-bed53.firebaseio.com",
+    "project_id": "hungerkiller-bed53",
+    "storage_bucket": "hungerkiller-bed53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811850007687:android:4d9023d7cae9ea91",
+        "android_client_info": {
+          "package_name": "com.example.ironman.hungerkiller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811850007687-c31m9pr8jmuabobrs2ldot3teavkrq4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ironman.hungerkiller",
+            "certificate_hash": "96f997f92be17ecf426836f06096be0da1227fda"
+          }
+        },
+        {
+          "client_id": "811850007687-baoq172fgn5sinegi5gm92bhcmm33s7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARhRBxBg_3dvrE0Bl9bh92zGUu-a9vqhs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811850007687-baoq172fgn5sinegi5gm92bhcmm33s7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

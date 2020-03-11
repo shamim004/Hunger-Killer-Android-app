@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/search_icon"
+        android:background="@color/search_color"
+        android:hint="search food ..."
+        android:textColorHint="@color/black"
+        android:id="@+id/search"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:layout_margin="5sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/SEARCH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

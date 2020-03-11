@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ironman.hungerkiller">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".utills.OfflineCap"
+        android:allowBackup="true"
+        android:icon="@drawable/new_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/new_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Splash"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AllRestaurants" />
+        <activity android:name=".user_managements.Login" />
+        <activity android:name=".user_managements.SignUp" />
+        <activity android:name=".CategoryItem" />
+        <activity android:name=".AllProducts" />
+        <activity android:name=".CartView" />
+        <activity android:name=".AllCartItem" />
+        <activity android:name=".Search" />
+        <activity
+            android:name=".Init"
+            android:launchMode="singleTask" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".payments.Payment" />
+        <activity android:name=".Account"
+            android:launchMode="singleInstance"></activity>
+    </application>
+
+</manifest>

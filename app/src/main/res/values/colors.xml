@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffdd00</color>
+    <color name="colorPrimaryDark">#a9a9a9</color>
+    <color name="colorAccent">#FFFFC800</color>
+    <color name="hint_color">#b3f7f7f7</color>
+    <color name="search_color">#d7d5d5</color>
+    <color name="white">#ffffff</color>
+    <color name="overlay">#ffc500</color>
+    <color name="yellow_start">#ffc800</color>
+    <color name="yellow_end">#ffc500</color>
+    <color name="black">#a6212121</color>
+    <color name="trans_yellow">#92ffc500</color>
+
+
+
+</resources>

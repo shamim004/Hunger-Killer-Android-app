@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllRestaurants">
+    <TextView
+        android:drawableLeft="@drawable/search_icon"
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search food ..."
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        android:padding="10sp"
+        android:background="@color/search_color"
+        android:onClick="gotoSearch"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RESTAURANTS_RYC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>

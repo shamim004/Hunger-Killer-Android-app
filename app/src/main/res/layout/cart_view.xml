@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartView">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="500sp"
+                android:id="@+id/image_head">
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/loading"
+                    android:scaleType="fitCenter"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="@font/merriweather_black"
+                    android:shadowColor="@color/yellow_start"
+                    android:shadowRadius="10.0"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+            <EditText
+                android:id="@+id/input_quantity"
+                android:padding="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/search_color"
+                android:textSize="20sp"
+                android:layout_below="@id/image_head"
+                android:layout_margin="5sp"
+                android:hint="Quantity, Default is one"
+                android:maxLines="1"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/input_location"
+                android:padding="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/search_color"
+                android:textSize="20sp"
+                android:layout_below="@id/image_head"
+                android:layout_margin="5sp"
+                android:hint="Location"
+                android:maxLines="1"
+                android:inputType="textAutoComplete"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80sp"/>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="@drawable/ripple"
+        android:textAllCaps="false"
+        android:fontFamily="@font/merriweather_black"
+        android:textSize="20sp"
+        android:text="Add To Cart"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="addToCart"/>
+</RelativeLayout>
